@@ -1,0 +1,78 @@
+body{
+	padding-top:50px;
+}
+#headWrapper{
+	position:relative;
+	height:600px;
+	overflow:hidden;
+	margin:0;
+	padding:0;
+	background-image: url(../images/headerlogo/background.png);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-position: top center;
+	background-attachment: fixed;
+}
+#logoText{
+	position:absolute;
+	top:50%;
+	height:180px;
+	width:100%;
+	background-image: url(../images/headerlogo/text.png);
+	background-repeat:no-repeat;
+	background-position: center;
+	margin-top:-90px;
+}
+#for-flower {
+  background-image: url("../images/headerlogo/fore-flower.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 180px;
+  position: absolute;
+  right: -50px;
+  top: 508px;
+  width: 226px;
+}
+#back-flower {
+  background-image: url("../images/headerlogo/back-flower.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 180px;
+  position: absolute;
+  left: -25px;
+  top: 480px;
+  width: 226px;
+}
+.product-thumb{
+	width:auto;
+	height:200px;
+}
+#footer{
+	margin-top:15px;
+}
+.details.img-responsive {
+  margin: 15px auto;
+  width: 70%;
+}
+.table-auto{
+	width:auto;
+	margin: auto;
+}
+
+#add-product-button{
+	margin-top:-15px;
+	margin-bottom: 15px;
+}
+.saved_image img {
+  height: auto;
+  width: 200px;
+}
+
+.login-form {
+  background-color: #ddd;
+  border: 2px solid #000;
+  box-shadow: 0 2px 3px #000;
+  margin: 0 auto;
+  padding: 3px 69px;
+  width: 33%;
+}
